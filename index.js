@@ -18,10 +18,12 @@ return n-=1;
 }
 function makeInt(n) {
   return n.toString();
-}
-isNaN(makeInt()){
+  isNaN(n){
   return true;
+  }
 }
+
+
 function preserveDecimal(n) {
   return parseFloat(n);
 }
